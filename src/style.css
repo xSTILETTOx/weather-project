@@ -1,0 +1,114 @@
+img {
+  width: 300px;
+  padding-top: 30px;
+}
+body {
+  background-color: #c7eae6;
+}
+
+.container {
+  max-width: 720px;
+  background-color: #c7eae6;
+}
+
+.day-Time {
+  position: relative;
+  left: 120px;
+  top: -90px;
+  font-size: 30px;
+}
+.sunny {
+  font-size: 20px;
+  position: relative;
+  top: -65px;
+  right: 20px;
+  font-weight: bold;
+  color: #3d7ed3;
+  text-transform: uppercase;
+}
+.temperature {
+  font-size: 70px;
+  font-weight: 700;
+  position: relative;
+  left: 450px;
+  top: -240px;
+}
+#celcius {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left: 470px;
+  top: -270px;
+  text-decoration: none;
+  color: #099ab7;
+  cursor: pointer;
+}
+.divider {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  left: 470px;
+  top: -275px;
+}
+#fahrenheit {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left: 470px;
+  top: -270px;
+  text-decoration: none;
+  color: #099ab7;
+}
+.high {
+  font-size: 18px;
+  position: relative;
+  top: -210px;
+  left: 390px;
+}
+.low {
+  font-size: 18px;
+  position: relative;
+  top: -190px;
+  left: 295px;
+}
+.current {
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  left: -340px;
+  color: #4a6372;
+  text-transform: uppercase;
+}
+.day-5 {
+  background-color: #e1ecef;
+  font-weight: 500;
+  padding: 20px;
+}
+.container-forecast {
+  background-color: #d8f7ff;
+  text-align: center;
+}
+.picture {
+  width: 30px;
+}
+.container-high {
+  background-color: #f9fccc;
+  text-align: center;
+  padding: 5px;
+}
+.container-low {
+  background-color: #d8f7ff;
+  text-align: center;
+  padding: 5px;
+}
+.container-day {
+  background-color: #f3d7f7;
+  text-align: center;
+  padding: 5px;
+}
+.coded {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 60px;
+  color: #a53b8b;
+}
