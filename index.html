@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER 🌏</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <br />
+      <form class="row g-6">
+        <div class="col-8">
+          <input
+            type="text"
+            placeholder="Enter city here"
+            class="form-control form-control-lg"
+            id="city-search-input"
+          />
+        </div>
+        <div class="col-auto">
+          <input
+            type="submit"
+            value="Search"
+            class="btn btn-primary"
+            id="city-search-submit"
+          />
+          <input
+            type="button"
+            value="Get Location"
+            class="btn btn-warning"
+            id="gps"
+          />
+        </div>
+      </form>
+
+      <img src="src/images/001-sun.png" alt="sunny" />
+      <span class="day-Time">SUNDAY 11.30AM</span>
+      <span class="sunny">SUNNY</span>
+      <span class="temperature"> 18°</span>
+      <a href="#" id="celcius">C</a>
+      <span class="divider">|</span>
+      <a href="#" id="fahrenheit">F</a>
+      <span class="high">25°C <strong>HIGH</strong></span>
+      <span class="low"><strong>12°C</strong> LOW</span>
+      <span class="current">CITY</span>
+
+      <div class="day-5">Current city 5-day forcast</div>
+      <div class="container-forecast">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+            <img class="picture" src="src/images/003-cloudy.png" alt="cloudy" />
+          </div>
+
+          <div class="col">
+            <img class="picture" src="src/images/004-rain.png" alt="rain" />
+          </div>
+          <div class="col">
+            <img class="picture" src="src/images/001-sun.png" alt="sun" />
+          </div>
+          <div class="col">
+            <img class="picture" src="src/images/003-cloudy.png" alt="cloudy" />
+          </div>
+          <div class="col">
+            <img
+              class="picture"
+              src="src/images/010-lightning.png"
+              alt="storm"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container-high">
+        <div class="row">
+          <div class="col"><strong>HIGH</strong></div>
+          <div class="col">21°C</div>
+          <div class="col">22°C</div>
+          <div class="col">23°C</div>
+          <div class="col">22°C</div>
+          <div class="col">21°C</div>
+        </div>
+      </div>
+      <div class="container-low">
+        <div class="row">
+          <div class="col"><strong>LOW</strong></div>
+          <div class="col">12°C</div>
+          <div class="col">13°C</div>
+          <div class="col">12°C</div>
+          <div class="col">12°C</div>
+          <div class="col">11°C</div>
+        </div>
+      </div>
+      <div class="container-day">
+        <div class="row">
+          <div class="col"><strong>DAY</strong></div>
+          <div class="col">MONDAY</div>
+          <div class="col">TUESDAY</div>
+          <div class="col">WEDNESDAY</div>
+          <div class="col">THURSDAY</div>
+          <div class="col">FRIDAY</div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <footer>
+        <div>
+          Icons made by
+          <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+          <a href="https://www.flaticon.com/" title="Flaticon"
+            >www.flaticon.com</a
+          >
+        </div>
+        <div class="coded">CODED BY TISA</div>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
