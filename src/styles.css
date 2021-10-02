@@ -43,13 +43,7 @@ body {
   color: #099ab7;
   cursor: pointer;
 }
-.divider {
-  font-size: 20px;
-  font-weight: 700;
-  position: relative;
-  left: 470px;
-  top: -275px;
-}
+
 #fahrenheit {
   font-size: 30px;
   font-weight: 700;
